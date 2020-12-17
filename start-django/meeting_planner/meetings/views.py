@@ -7,4 +7,4 @@ def detail(request,id):
     """
     meeting = get_object_or_404(Meeting, pk=id)
     #meeting = Meeting.objects.get(pk=id)
-    return render(request, detail.html, {"meeting":meeting})
+   # return render(request, detail.html, {"meeting":meeting})
